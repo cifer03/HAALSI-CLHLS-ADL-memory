@@ -1,0 +1,22 @@
+[
+  {
+    "filename": "HAALSI W1-3 Longitudinal Dataset.dta",
+    "size": 73864721,
+    "sha256": "8792e3c407991271c178ad2a7f459b4547ec9eba3eddbba9ae46a60208a15585"
+  },
+  {
+    "filename": "dataverse_files.zip",
+    "size": 12244583,
+    "sha256": "790718057b8ead4ab7000b0c8266192546c4649e7a95052eb9b910c032759478"
+  },
+  {
+    "filename": "dataverse_files (1).zip",
+    "size": 4175623,
+    "sha256": "9d8b43d04a92d294acbc549d20fce3127ed0f1f87beb031455df3137b2ff6e2b"
+  },
+  {
+    "filename": "clhls_2018_cross_sectional_dataset_15874.zip",
+    "size": 6486843,
+    "sha256": "1de2ad48761070d4bcddb2773109f0e0a2da7b5aa8f5e9ba61f13db288f207fc"
+  }
+]

@@ -1,0 +1,657 @@
+{
+  "scope": "five-item revised analyses; memory and psychological symptom marker coefficients only",
+  "pvalues": [
+    {
+      "cohort": "HAALSI",
+      "analysis": "five_main",
+      "marker": "memory_low_z",
+      "n": 1199,
+      "events": 105,
+      "OR": 1.3275334944691255,
+      "CI": [
+        1.0646721120852825,
+        1.6552938307791798
+      ],
+      "p": 0.011849350932934995,
+      "p_display": "0.012",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "five_main",
+      "marker": "mood_z",
+      "n": 1199,
+      "events": 105,
+      "OR": 1.0642581246074303,
+      "CI": [
+        0.8775637330791499,
+        1.2906701964753688
+      ],
+      "p": 0.5268446794847361,
+      "p_display": "0.527",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "original_four",
+      "marker": "memory_low_z",
+      "n": 1203,
+      "events": 104,
+      "OR": 1.336796741875578,
+      "CI": [
+        1.0708751857054828,
+        1.6687523933163926
+      ],
+      "p": 0.010315706437118275,
+      "p_display": "0.010",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "original_four",
+      "marker": "mood_z",
+      "n": 1203,
+      "events": 104,
+      "OR": 1.0560267961286516,
+      "CI": [
+        0.8715366197733049,
+        1.279570552562458
+      ],
+      "p": 0.577902842792271,
+      "p_display": "0.578",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "five_with_original_four_SD",
+      "marker": "memory_low_z",
+      "n": 1199,
+      "events": 105,
+      "OR": 1.327602543707979,
+      "CI": [
+        1.0646843588879367,
+        1.6554469870308401
+      ],
+      "p": 0.011849351485812058,
+      "p_display": "0.012",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "five_with_original_four_SD",
+      "marker": "mood_z",
+      "n": 1199,
+      "events": 105,
+      "OR": 1.0642583192159953,
+      "CI": [
+        0.8775633939774128,
+        1.2906711672269322
+      ],
+      "p": 0.5268446857688914,
+      "p_display": "0.527",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "age65_89",
+      "marker": "memory_low_z",
+      "n": 1161,
+      "events": 91,
+      "OR": 1.3774666236906126,
+      "CI": [
+        1.0950995868980289,
+        1.7326408685407488
+      ],
+      "p": 0.006216606164735884,
+      "p_display": "0.006",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "age65_89",
+      "marker": "mood_z",
+      "n": 1161,
+      "events": 91,
+      "OR": 1.0864508926436496,
+      "CI": [
+        0.8885697275576256,
+        1.3283994553479013
+      ],
+      "p": 0.4189252368876464,
+      "p_display": "0.419",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "all_six_independent_at_baseline_five_item_endpoint",
+      "marker": "memory_low_z",
+      "n": 1182,
+      "events": 103,
+      "OR": 1.36452956835419,
+      "CI": [
+        1.087678661051453,
+        1.7118483699155629
+      ],
+      "p": 0.007222928878418207,
+      "p_display": "0.007",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "all_six_independent_at_baseline_five_item_endpoint",
+      "marker": "mood_z",
+      "n": 1182,
+      "events": 103,
+      "OR": 1.0924928562746525,
+      "CI": [
+        0.8953570227014215,
+        1.3330332043524538
+      ],
+      "p": 0.38359491325745376,
+      "p_display": "0.384",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "cohort_specific_all_six",
+      "marker": "memory_low_z",
+      "n": 1182,
+      "events": 119,
+      "OR": 1.236177745588044,
+      "CI": [
+        0.9988033161932568,
+        1.5299663045887033
+      ],
+      "p": 0.05130052200269236,
+      "p_display": "0.051",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "cohort_specific_all_six",
+      "marker": "mood_z",
+      "n": 1182,
+      "events": 119,
+      "OR": 1.078892536447861,
+      "CI": [
+        0.8943371702816143,
+        1.3015327371849799
+      ],
+      "p": 0.42759996863173777,
+      "p_display": "0.428",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "five_help_or_cannot",
+      "marker": "memory_low_z",
+      "n": 1211,
+      "events": 117,
+      "OR": 1.3018114332085167,
+      "CI": [
+        1.0538132250121615,
+        1.608172081549702
+      ],
+      "p": 0.014442750380281722,
+      "p_display": "0.014",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "five_help_or_cannot",
+      "marker": "mood_z",
+      "n": 1211,
+      "events": 117,
+      "OR": 0.9899287866933499,
+      "CI": [
+        0.8224821111014476,
+        1.1914654306728096
+      ],
+      "p": 0.9147396800152033,
+      "p_display": "0.915",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "five_main",
+      "marker": "memory_low_z",
+      "n": 3824,
+      "events": 623,
+      "OR": 1.1733012933570068,
+      "CI": [
+        1.0776403925642184,
+        1.27745390251896
+      ],
+      "p": 0.00023035631876351743,
+      "p_display": "<0.001",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "five_main",
+      "marker": "mood_z",
+      "n": 3824,
+      "events": 623,
+      "OR": 1.1136937494799588,
+      "CI": [
+        1.0090301619255806,
+        1.2292137682621689
+      ],
+      "p": 0.03247685455387347,
+      "p_display": "0.032",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "original_four",
+      "marker": "memory_low_z",
+      "n": 3907,
+      "events": 632,
+      "OR": 1.170211939585629,
+      "CI": [
+        1.075670143329623,
+        1.273063115157161
+      ],
+      "p": 0.00025509830358657443,
+      "p_display": "<0.001",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "original_four",
+      "marker": "mood_z",
+      "n": 3907,
+      "events": 632,
+      "OR": 1.1194084302404408,
+      "CI": [
+        1.0148242319461152,
+        1.2347707063422815
+      ],
+      "p": 0.02419539431397502,
+      "p_display": "0.024",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "five_with_original_four_SD",
+      "marker": "memory_low_z",
+      "n": 3824,
+      "events": 623,
+      "OR": 1.1734979977949351,
+      "CI": [
+        1.0777249153508988,
+        1.277782049216473
+      ],
+      "p": 0.00023035631876352415,
+      "p_display": "<0.001",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "five_with_original_four_SD",
+      "marker": "mood_z",
+      "n": 3824,
+      "events": 623,
+      "OR": 1.1135955622734306,
+      "CI": [
+        1.0090227350024803,
+        1.2290060801375597
+      ],
+      "p": 0.032476854553873995,
+      "p_display": "0.032",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "age65_89",
+      "marker": "memory_low_z",
+      "n": 3208,
+      "events": 364,
+      "OR": 1.1865312391752214,
+      "CI": [
+        1.058160240244946,
+        1.3304756009475385
+      ],
+      "p": 0.0034155412337722266,
+      "p_display": "0.003",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "age65_89",
+      "marker": "mood_z",
+      "n": 3208,
+      "events": 364,
+      "OR": 1.1546589669387017,
+      "CI": [
+        1.023679848874811,
+        1.3023967712145479
+      ],
+      "p": 0.019234960409534055,
+      "p_display": "0.019",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "all_six_independent_at_baseline_five_item_endpoint",
+      "marker": "memory_low_z",
+      "n": 3805,
+      "events": 617,
+      "OR": 1.1695569939808856,
+      "CI": [
+        1.0737925161674942,
+        1.2738620744458988
+      ],
+      "p": 0.0003263679837453727,
+      "p_display": "<0.001",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "all_six_independent_at_baseline_five_item_endpoint",
+      "marker": "mood_z",
+      "n": 3805,
+      "events": 617,
+      "OR": 1.121367194245322,
+      "CI": [
+        1.0151600772201372,
+        1.2386858117716786
+      ],
+      "p": 0.024049268119497997,
+      "p_display": "0.024",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "cohort_specific_all_six",
+      "marker": "memory_low_z",
+      "n": 3805,
+      "events": 652,
+      "OR": 1.172182535166531,
+      "CI": [
+        1.0781071310759827,
+        1.2744669394572423
+      ],
+      "p": 0.00019774686686431693,
+      "p_display": "<0.001",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "cohort_specific_all_six",
+      "marker": "mood_z",
+      "n": 3805,
+      "events": 652,
+      "OR": 1.1252703231326973,
+      "CI": [
+        1.021369829817084,
+        1.2397402617129714
+      ],
+      "p": 0.016952089372052403,
+      "p_display": "0.017",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "exclude_sex_flag",
+      "marker": "memory_low_z",
+      "n": 3818,
+      "events": 622,
+      "OR": 1.1737132454491874,
+      "CI": [
+        1.0780456404204217,
+        1.277870556580165
+      ],
+      "p": 0.00022220257975401748,
+      "p_display": "<0.001",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "exclude_sex_flag",
+      "marker": "mood_z",
+      "n": 3818,
+      "events": 622,
+      "OR": 1.1145707936588494,
+      "CI": [
+        1.0098201517610896,
+        1.2301874268510555
+      ],
+      "p": 0.03123822212450779,
+      "p_display": "0.031",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "exclude_age_flag",
+      "marker": "memory_low_z",
+      "n": 3634,
+      "events": 588,
+      "OR": 1.142633663382618,
+      "CI": [
+        1.0442651698418652,
+        1.250268347926315
+      ],
+      "p": 0.003696267960676472,
+      "p_display": "0.004",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "exclude_age_flag",
+      "marker": "mood_z",
+      "n": 3634,
+      "events": 588,
+      "OR": 1.125204935190409,
+      "CI": [
+        1.0169491961691686,
+        1.2449846569977923
+      ],
+      "p": 0.02227724349399133,
+      "p_display": "0.022",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "exclude_union_flag",
+      "marker": "memory_low_z",
+      "n": 3628,
+      "events": 587,
+      "OR": 1.1430758123575724,
+      "CI": [
+        1.0447086023898802,
+        1.2507050385225977
+      ],
+      "p": 0.0035840506452753385,
+      "p_display": "0.004",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "exclude_union_flag",
+      "marker": "mood_z",
+      "n": 3628,
+      "events": 587,
+      "OR": 1.1261164535522095,
+      "CI": [
+        1.0177733125234394,
+        1.24599284669473
+      ],
+      "p": 0.021374495744945966,
+      "p_display": "0.021",
+      "test": "two-sided Wald z; HC0 robust SE",
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "MI_all_covariate_missing_MAR",
+      "marker": "mood_z",
+      "n": 1212,
+      "events": 111,
+      "OR": 1.0813617583848245,
+      "CI": [
+        0.8922090100042974,
+        1.3106158303551398
+      ],
+      "p": 0.42493900517699934,
+      "p_display": "0.425",
+      "test": "two-sided pooled t; Rubin pooling with Barnard-Rubin df",
+      "df": 1194.5036021168685,
+      "statistic": 0.7981553266850288,
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "HAALSI",
+      "analysis": "MI_all_covariate_missing_MAR",
+      "marker": "memory_low_z",
+      "n": 1212,
+      "events": 111,
+      "OR": 1.3209680914300368,
+      "CI": [
+        1.065599329413125,
+        1.637535469863089
+      ],
+      "p": 0.011140519967670357,
+      "p_display": "0.011",
+      "test": "two-sided pooled t; Rubin pooling with Barnard-Rubin df",
+      "df": 1195.0495800832705,
+      "statistic": 2.5422178343251502,
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "MI_ordinary_missing_excluding_explicit_unknown",
+      "marker": "mood_z",
+      "n": 4632,
+      "events": 768,
+      "OR": 1.127885368336125,
+      "CI": [
+        1.0328441525994203,
+        1.2316721752309705
+      ],
+      "p": 0.007384093040866134,
+      "p_display": "0.007",
+      "test": "two-sided pooled t; Rubin pooling with Barnard-Rubin df",
+      "df": 4600.512227273481,
+      "statistic": 2.680197566236024,
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "MI_ordinary_missing_excluding_explicit_unknown",
+      "marker": "memory_low_z",
+      "n": 4632,
+      "events": 768,
+      "OR": 1.145768645689761,
+      "CI": [
+        1.062081582196894,
+        1.236049858552559
+      ],
+      "p": 0.00044007735239456414,
+      "p_display": "<0.001",
+      "test": "two-sided pooled t; Rubin pooling with Barnard-Rubin df",
+      "df": 4607.165874658481,
+      "statistic": 3.517353363575294,
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "MI_all_covariate_missing_MAR",
+      "marker": "mood_z",
+      "n": 4870,
+      "events": 817,
+      "OR": 1.1349712692138465,
+      "CI": [
+        1.0420922247742133,
+        1.2361283879840779
+      ],
+      "p": 0.0036633709910784905,
+      "p_display": "0.004",
+      "test": "two-sided pooled t; Rubin pooling with Barnard-Rubin df",
+      "df": 4821.197046467814,
+      "statistic": 2.907205131837039,
+      "multiplicity": "nominal unadjusted"
+    },
+    {
+      "cohort": "CLHLS",
+      "analysis": "MI_all_covariate_missing_MAR",
+      "marker": "memory_low_z",
+      "n": 4870,
+      "events": 817,
+      "OR": 1.1188391482951365,
+      "CI": [
+        1.0387423888060758,
+        1.2051121175449466
+      ],
+      "p": 0.0030549438940375047,
+      "p_display": "0.003",
+      "test": "two-sided pooled t; Rubin pooling with Barnard-Rubin df",
+      "df": 4844.995464800697,
+      "statistic": 2.9636492278857127,
+      "multiplicity": "nominal unadjusted"
+    }
+  ],
+  "flow": {
+    "HAALSI": {
+      "age_eligible": 2079,
+      "baseline_positive": 183,
+      "baseline_unknown": 25,
+      "baseline_negative": 1871,
+      "scores_age_sex_known": 1770,
+      "scored_followup_known": 1212,
+      "scored_followup_unknown": 558,
+      "complete_case": 1199,
+      "excluded_covariates": 13,
+      "events": 105
+    },
+    "CLHLS": {
+      "age_eligible": 15771,
+      "baseline_positive": 4092,
+      "baseline_unknown": 542,
+      "baseline_negative": 11137,
+      "scores_age_sex_known": 8866,
+      "scored_followup_known": 4870,
+      "scored_followup_unknown": 3996,
+      "complete_case": 3824,
+      "excluded_covariates": 1046,
+      "events": 623
+    }
+  },
+  "notes": [
+    "Mutually exclusive sequential exclusion counts. Diagram starts with baseline age-eligible samples, not all raw records.",
+    "Unavailable follow-up outcome is not coded as death; CLHLS death/loss status is unresolved.",
+    "Nominal two-sided P values; original four-item screening q values are not transferred.",
+    "MI P values reconstructed from pooled logOR, pooled SE and finite df. No new regression fitted."
+  ]
+}

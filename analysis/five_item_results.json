@@ -1,0 +1,656 @@
+{
+  "revision": "Five shared activities: bathing, dressing, toileting, transfers, eating. Original four reproduced first. New five-item analysis is post hoc measurement revision, not independent confirmation.",
+  "models": [
+    {
+      "cohort": "HAALSI",
+      "original_four": {
+        "n": 1203,
+        "events": 104,
+        "effects": {
+          "memory_low_z": {
+            "OR": 1.336796741875578,
+            "CI": [
+              1.0708751857054828,
+              1.6687523933163926
+            ],
+            "p": 0.010315706437118275
+          },
+          "mood_z": {
+            "OR": 1.0560267961286516,
+            "CI": [
+              0.8715366197733049,
+              1.279570552562458
+            ],
+            "p": 0.577902842792271
+          }
+        }
+      },
+      "five_main": {
+        "n": 1199,
+        "events": 105,
+        "effects": {
+          "memory_low_z": {
+            "OR": 1.3275334944691255,
+            "CI": [
+              1.0646721120852825,
+              1.6552938307791798
+            ],
+            "p": 0.011849350932934995
+          },
+          "mood_z": {
+            "OR": 1.0642581246074303,
+            "CI": [
+              0.8775637330791499,
+              1.2906701964753688
+            ],
+            "p": 0.5268446794847361
+          }
+        }
+      },
+      "four_flow": {
+        "age_eligible": 2079,
+        "baseline_positive": 181,
+        "baseline_unknown": 22,
+        "baseline_negative": 1876,
+        "scores_age_sex_known": 1774,
+        "scored_followup_known": 1216,
+        "scored_followup_unknown": 558,
+        "complete_case": 1203,
+        "excluded_covariates": 13,
+        "events": 104
+      },
+      "five_flow": {
+        "age_eligible": 2079,
+        "baseline_positive": 183,
+        "baseline_unknown": 25,
+        "baseline_negative": 1871,
+        "scores_age_sex_known": 1770,
+        "scored_followup_known": 1212,
+        "scored_followup_unknown": 558,
+        "complete_case": 1199,
+        "excluded_covariates": 13,
+        "events": 105
+      },
+      "four_scales": {
+        "mood_mean": 14.7423900789177,
+        "mood_SD": 9.221265555591456,
+        "memory_mean": 4.308342933654785,
+        "memory_SD": 2.0543019771575928,
+        "reference_n": 1774
+      },
+      "five_scales": {
+        "mood_mean": 14.735593220338982,
+        "mood_SD": 9.221238346675289,
+        "memory_mean": 4.310169696807861,
+        "memory_SD": 2.053924798965454,
+        "reference_n": 1770
+      },
+      "five_baseline": {
+        "age": {
+          "mean": 73.74394989013672,
+          "SD": 7.230776786804199
+        },
+        "mood": {
+          "mean": 14.22768974145121,
+          "SD": 9.143214124403647
+        },
+        "memory": {
+          "mean": 4.43953275680542,
+          "SD": 1.9589625597000122
+        },
+        "male": {
+          "n": 508,
+          "pct": 42.36864053377815
+        },
+        "school_any": {
+          "n": 528,
+          "pct": 44.03669724770643
+        },
+        "hypertension": {
+          "n": 579,
+          "pct": 48.29024186822352
+        },
+        "diabetes": {
+          "n": 73,
+          "pct": 6.0884070058381985
+        },
+        "cvd": {
+          "n": 38,
+          "pct": 3.16930775646372
+        },
+        "smoke": {
+          "n": 74,
+          "pct": 6.171809841534612
+        },
+        "drink": {
+          "n": 235,
+          "pct": 19.599666388657212
+        },
+        "partner": {
+          "n": 494,
+          "pct": 41.201000834028356
+        }
+      },
+      "changes": {
+        "original_cc_n": 1203,
+        "original_cc_baseline_eating_positive": 0,
+        "original_cc_baseline_eating_unknown": 1,
+        "original_cc_retained_in_new_cc": 1199,
+        "new_cc_not_in_original_cc": 0,
+        "same_people_followup_0_to_1": 1,
+        "same_people_followup_1_to_0": 0
+      },
+      "sensitivities": [
+        {
+          "analysis": "five_with_original_four_SD",
+          "n": 1199,
+          "events": 105,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.327602543707979,
+              "CI": [
+                1.0646843588879367,
+                1.6554469870308401
+              ],
+              "p": 0.011849351485812058
+            },
+            "mood_z": {
+              "OR": 1.0642583192159953,
+              "CI": [
+                0.8775633939774128,
+                1.2906711672269322
+              ],
+              "p": 0.5268446857688914
+            }
+          }
+        },
+        {
+          "analysis": "age65_89",
+          "n": 1161,
+          "events": 91,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.3774666236906126,
+              "CI": [
+                1.0950995868980289,
+                1.7326408685407488
+              ],
+              "p": 0.006216606164735884
+            },
+            "mood_z": {
+              "OR": 1.0864508926436496,
+              "CI": [
+                0.8885697275576256,
+                1.3283994553479013
+              ],
+              "p": 0.4189252368876464
+            }
+          }
+        },
+        {
+          "analysis": "all_six_independent_at_baseline_five_item_endpoint",
+          "n": 1182,
+          "events": 103,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.36452956835419,
+              "CI": [
+                1.087678661051453,
+                1.7118483699155629
+              ],
+              "p": 0.007222928878418207
+            },
+            "mood_z": {
+              "OR": 1.0924928562746525,
+              "CI": [
+                0.8953570227014215,
+                1.3330332043524538
+              ],
+              "p": 0.38359491325745376
+            }
+          }
+        },
+        {
+          "analysis": "cohort_specific_all_six",
+          "n": 1182,
+          "events": 119,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.236177745588044,
+              "CI": [
+                0.9988033161932568,
+                1.5299663045887033
+              ],
+              "p": 0.05130052200269236
+            },
+            "mood_z": {
+              "OR": 1.078892536447861,
+              "CI": [
+                0.8943371702816143,
+                1.3015327371849799
+              ],
+              "p": 0.42759996863173777
+            }
+          }
+        },
+        {
+          "analysis": "five_help_or_cannot",
+          "n": 1211,
+          "events": 117,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.3018114332085167,
+              "CI": [
+                1.0538132250121615,
+                1.608172081549702
+              ],
+              "p": 0.014442750380281722
+            },
+            "mood_z": {
+              "OR": 0.9899287866933499,
+              "CI": [
+                0.8224821111014476,
+                1.1914654306728096
+              ],
+              "p": 0.9147396800152033
+            }
+          }
+        }
+      ]
+    },
+    {
+      "cohort": "CLHLS",
+      "original_four": {
+        "n": 3907,
+        "events": 632,
+        "effects": {
+          "memory_low_z": {
+            "OR": 1.170211939585629,
+            "CI": [
+              1.075670143329623,
+              1.273063115157161
+            ],
+            "p": 0.00025509830358657443
+          },
+          "mood_z": {
+            "OR": 1.1194084302404408,
+            "CI": [
+              1.0148242319461152,
+              1.2347707063422815
+            ],
+            "p": 0.02419539431397502
+          }
+        }
+      },
+      "five_main": {
+        "n": 3824,
+        "events": 623,
+        "effects": {
+          "memory_low_z": {
+            "OR": 1.1733012933570068,
+            "CI": [
+              1.0776403925642184,
+              1.27745390251896
+            ],
+            "p": 0.00023035631876351743
+          },
+          "mood_z": {
+            "OR": 1.1136937494799588,
+            "CI": [
+              1.0090301619255806,
+              1.2292137682621689
+            ],
+            "p": 0.03247685455387347
+          }
+        }
+      },
+      "four_flow": {
+        "age_eligible": 15771,
+        "baseline_positive": 4067,
+        "baseline_unknown": 316,
+        "baseline_negative": 11388,
+        "scores_age_sex_known": 9062,
+        "scored_followup_known": 4983,
+        "scored_followup_unknown": 4079,
+        "complete_case": 3907,
+        "excluded_covariates": 1076,
+        "events": 632
+      },
+      "five_flow": {
+        "age_eligible": 15771,
+        "baseline_positive": 4092,
+        "baseline_unknown": 542,
+        "baseline_negative": 11137,
+        "scores_age_sex_known": 8866,
+        "scored_followup_known": 4870,
+        "scored_followup_unknown": 3996,
+        "complete_case": 3824,
+        "excluded_covariates": 1046,
+        "events": 623
+      },
+      "four_scales": {
+        "mood_mean": 10.37442065769146,
+        "mood_SD": 5.517363214847141,
+        "memory_mean": 2.5809975722798497,
+        "memory_SD": 0.8648967154722434,
+        "reference_n": 9062
+      },
+      "five_scales": {
+        "mood_mean": 10.391721182043762,
+        "mood_SD": 5.521884393679785,
+        "memory_mean": 2.5815474847732913,
+        "memory_SD": 0.863990477514117,
+        "reference_n": 8866
+      },
+      "five_baseline": {
+        "age": {
+          "mean": 78.84701882845188,
+          "SD": 9.535970778621634
+        },
+        "mood": {
+          "mean": 10.059623430962343,
+          "SD": 5.446008885408455
+        },
+        "memory": {
+          "mean": 2.609571129707113,
+          "SD": 0.835719963162189
+        },
+        "male": {
+          "n": 1838,
+          "pct": 48.06485355648535
+        },
+        "school_any": {
+          "n": 2442,
+          "pct": 63.85983263598326
+        },
+        "hypertension": {
+          "n": 1783,
+          "pct": 46.62656903765691
+        },
+        "diabetes": {
+          "n": 456,
+          "pct": 11.92468619246862
+        },
+        "cvd": {
+          "n": 975,
+          "pct": 25.496861924686193
+        },
+        "smoke": {
+          "n": 707,
+          "pct": 18.488493723849373
+        },
+        "drink": {
+          "n": 677,
+          "pct": 17.70397489539749
+        },
+        "partner": {
+          "n": 2120,
+          "pct": 55.43933054393305
+        }
+      },
+      "changes": {
+        "original_cc_n": 3907,
+        "original_cc_baseline_eating_positive": 8,
+        "original_cc_baseline_eating_unknown": 75,
+        "original_cc_retained_in_new_cc": 3824,
+        "new_cc_not_in_original_cc": 0,
+        "same_people_followup_0_to_1": 2,
+        "same_people_followup_1_to_0": 0
+      },
+      "sensitivities": [
+        {
+          "analysis": "five_with_original_four_SD",
+          "n": 3824,
+          "events": 623,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.1734979977949351,
+              "CI": [
+                1.0777249153508988,
+                1.277782049216473
+              ],
+              "p": 0.00023035631876352415
+            },
+            "mood_z": {
+              "OR": 1.1135955622734306,
+              "CI": [
+                1.0090227350024803,
+                1.2290060801375597
+              ],
+              "p": 0.032476854553873995
+            }
+          }
+        },
+        {
+          "analysis": "age65_89",
+          "n": 3208,
+          "events": 364,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.1865312391752214,
+              "CI": [
+                1.058160240244946,
+                1.3304756009475385
+              ],
+              "p": 0.0034155412337722266
+            },
+            "mood_z": {
+              "OR": 1.1546589669387017,
+              "CI": [
+                1.023679848874811,
+                1.3023967712145479
+              ],
+              "p": 0.019234960409534055
+            }
+          }
+        },
+        {
+          "analysis": "all_six_independent_at_baseline_five_item_endpoint",
+          "n": 3805,
+          "events": 617,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.1695569939808856,
+              "CI": [
+                1.0737925161674942,
+                1.2738620744458988
+              ],
+              "p": 0.0003263679837453727
+            },
+            "mood_z": {
+              "OR": 1.121367194245322,
+              "CI": [
+                1.0151600772201372,
+                1.2386858117716786
+              ],
+              "p": 0.024049268119497997
+            }
+          }
+        },
+        {
+          "analysis": "cohort_specific_all_six",
+          "n": 3805,
+          "events": 652,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.172182535166531,
+              "CI": [
+                1.0781071310759827,
+                1.2744669394572423
+              ],
+              "p": 0.00019774686686431693
+            },
+            "mood_z": {
+              "OR": 1.1252703231326973,
+              "CI": [
+                1.021369829817084,
+                1.2397402617129714
+              ],
+              "p": 0.016952089372052403
+            }
+          }
+        },
+        {
+          "analysis": "exclude_sex_flag",
+          "n": 3818,
+          "events": 622,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.1737132454491874,
+              "CI": [
+                1.0780456404204217,
+                1.277870556580165
+              ],
+              "p": 0.00022220257975401748
+            },
+            "mood_z": {
+              "OR": 1.1145707936588494,
+              "CI": [
+                1.0098201517610896,
+                1.2301874268510555
+              ],
+              "p": 0.03123822212450779
+            }
+          }
+        },
+        {
+          "analysis": "exclude_age_flag",
+          "n": 3634,
+          "events": 588,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.142633663382618,
+              "CI": [
+                1.0442651698418652,
+                1.250268347926315
+              ],
+              "p": 0.003696267960676472
+            },
+            "mood_z": {
+              "OR": 1.125204935190409,
+              "CI": [
+                1.0169491961691686,
+                1.2449846569977923
+              ],
+              "p": 0.02227724349399133
+            }
+          }
+        },
+        {
+          "analysis": "exclude_union_flag",
+          "n": 3628,
+          "events": 587,
+          "effects": {
+            "memory_low_z": {
+              "OR": 1.1430758123575724,
+              "CI": [
+                1.0447086023898802,
+                1.2507050385225977
+              ],
+              "p": 0.0035840506452753385
+            },
+            "mood_z": {
+              "OR": 1.1261164535522095,
+              "CI": [
+                1.0177733125234394,
+                1.24599284669473
+              ],
+              "p": 0.021374495744945966
+            }
+          }
+        }
+      ],
+      "main_linkage_flags": {
+        "sex_flag": 6,
+        "age_flag": 190,
+        "union_flag": 196
+      }
+    }
+  ],
+  "measurement_audit": {
+    "HAALSI": {
+      "eating_raw_W2": {
+        "nan": 1998,
+        "1.0": 48,
+        "2.0": 33
+      },
+      "eating_raw_W4": {
+        "nan": 2017,
+        "1.0": 36,
+        "2.0": 26
+      },
+      "W2_eating_help_missing_by_difficulty": {
+        "false": {
+          "-97.0": 0,
+          "1.0": 81,
+          "2.0": 0,
+          "3.0": 0,
+          "4.0": 0,
+          "5.0": 0
+        },
+        "true": {
+          "-97.0": 1,
+          "1.0": 0,
+          "2.0": 1979,
+          "3.0": 9,
+          "4.0": 1,
+          "5.0": 3
+        }
+      },
+      "W4_eating_help_missing_by_difficulty": {
+        "false": {
+          "1.0": 62,
+          "2.0": 0,
+          "3.0": 0,
+          "5.0": 0
+        },
+        "true": {
+          "1.0": 0,
+          "2.0": 1259,
+          "3.0": 10,
+          "5.0": 6
+        }
+      },
+      "W3_dead_W4_complete_excluded": 1
+    },
+    "CLHLS": {
+      "eating_raw_baseline": {
+        "1.0": 13973,
+        "2.0": 776,
+        "3.0": 580,
+        "nan": 437,
+        "9.0": 3,
+        "8.0": 2
+      },
+      "eating_raw_followup": {
+        "nan": 8610,
+        "1.0": 6466,
+        "2.0": 398,
+        "3.0": 297
+      }
+    }
+  },
+  "limitations": [
+    "Help receipt (HAALSI) and help need/inability (CLHLS) differ.",
+    "No-help requires all included activities negative; any positive suffices despite another item missing. Otherwise unknown.",
+    "Eating screen-negative (PF013=2) with missing PF014 is coded negative using skip logic. Other missing help stays unknown. W4 questionnaire documents the skip; W2 raw patterns are consistent with that routing. Broad sensitivity includes cannot-do responses.",
+    "Baseline-reference standardization recalculated using five-item baseline-negative score-complete pool; fixed original SD comparison also reported.",
+    "Death, missing outcome and missing marker scores never imputed.",
+    "Unweighted conditional association among observed participants, not causal effects or population incidence.",
+    "Original historical screening q values cannot be carried over to the new five-item analysis. New p values are nominal and exploratory."
+  ],
+  "models_covariates": [
+    "mood_z",
+    "memory_low_z",
+    "agec",
+    "agec2",
+    "male",
+    "school_any",
+    "hypertension",
+    "diabetes",
+    "cvd",
+    "smoke",
+    "drink",
+    "partner"
+  ]
+}

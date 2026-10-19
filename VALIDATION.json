@@ -1,0 +1,11 @@
+{
+  "scripts_syntax_checked": 8,
+  "archive_effect_rows_checked": 38,
+  "primary_figure_rows_checked": 4,
+  "solver_analytic_check": "passed",
+  "outcome_logic_check": "passed",
+  "forest_generated": true,
+  "missing_raw_input_check": "fails clearly with four missing input paths as expected",
+  "raw_data_rerun_this_release": false,
+  "original_statsmodels_MI_rerun_this_release": false
+}
